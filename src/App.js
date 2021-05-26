@@ -1,12 +1,11 @@
 import './App.css';
 import React from 'react'
+import Navigation from './components/Navigation'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <h1>Hik3r</h1>
-      </header>
+      <Navigation />
     </div>
   );
 }
